@@ -1,0 +1,14 @@
+Determining if the include file ffi.h exists failed with the following output:
+Change Dir: /code/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_309be && [1/2] Building C object CMakeFiles/cmTC_309be.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_309be.dir/CheckIncludeFile.c.o 
+/usr/bin/clang-10   -m32 -pthread -Werror=format -fno-builtin-getentropy -MD -MT CMakeFiles/cmTC_309be.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_309be.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_309be.dir/CheckIncludeFile.c.o -c CheckIncludeFile.c
+CheckIncludeFile.c:1:10: fatal error: 'ffi.h' file not found
+#include <ffi.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
